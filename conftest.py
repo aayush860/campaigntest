@@ -9,6 +9,7 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger(__name__)
+pytest.mark.email_templates = pytest.mark.marker('tests related to email templates')
 
 # pytest hook to log test outcome
 def pytest_runtest_logreport(report):

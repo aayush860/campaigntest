@@ -76,6 +76,6 @@ class TestEmailTemplates(unittest.TestCase):
         logger.debug("Completed test_template_name_max_length with status code: %s", response.status_code)
 
 
-#pytest /Users/aabharga/Downloads/campaigntest/tests/email_templates_test/Unit_Test_emails_templates.py --html=report.html
+#pytest /Users/aabharga/Downloads/New\ Folder\ With\ Items/campaigntest/tests/email_templates_test/Unit_Test_emails_templates.py --html=report.html
 if __name__ == '__main__':
     unittest.main()
